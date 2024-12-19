@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikhitha Chava - Portfolio</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!-- Particles.js -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #0A0F19;
+      color: #E4E4E4;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .card {
+      background-color: #1A202C;
+    }
+
+    a {
+      color: #00D4FF;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #FF007C;
+    }
+  </style>
+</head>
+
+<body class="bg-black text-light-gray">
+  <!-- Header -->
+  <header class="bg-gray-900 text-white">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold">Nikhitha Chava</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#about" class="hover:underline">About</a></li>
+          <li><a href="#skills" class="hover:underline">Skills</a></li>
+          <li><a href="#experience" class="hover:underline">Experience</a></li>
+          <li><a href="#projects" class="hover:underline">Projects</a></li>
+          <li><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="relative h-screen bg-black text-white">
+    <div id="particles-js" class="absolute inset-0"></div>
+    <div class="container mx-auto relative z-10 flex flex-col justify-center items-center h-full text-center">
+      <h1 class="text-4xl md:text-6xl font-bold animate__animated animate__fadeInDown">Hello, I'm Nikhitha Chava</h1>
+      <p class="text-lg md:text-xl mt-4 animate__animated animate__fadeInUp">Software Developer | Passionate about Automation and Web Development</p>
+      <a href="#contact" class="mt-6 px-6 py-3 bg-blue-500 text-white rounded-full text-lg hover:bg-pink-500 animate__animated animate__zoomIn">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="container mx-auto py-16 px-6">
+    <h2 class="text-3xl font-bold mb-4">About Me</h2>
+    <p class="text-lg text-gray-400">
+      I am a dedicated software developer with expertise in automation tools, front-end development, and collaborative problem-solving.
+      With professional experience at Tech Mahindra and Autodesk, I bring a passion for innovation and a commitment to delivering high-quality solutions.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-gray-800 py-16 px-6">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-4 text-white">Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div class="p-4 card shadow rounded text-center">
+          <h3 class="text-xl font-semibold mb-2 text-cyan-400">Programming</h3>
+          <p>Java, Python, SQL, C, C++, C#</p>
+        </div>
+        <div class="p-4 card shadow rounded text-center">
+          <h3 class="text-xl font-semibold mb-2 text-cyan-400">Automation</h3>
+          <p>Selenium WebDriver, TestNG, JUnit</p>
+        </div>
+        <div class="p-4 card shadow rounded text-center">
+          <h3 class="text-xl font-semibold mb-2 text-cyan-400">Web Development</h3>
+          <p>HTML, CSS, JavaScript</p>
+        </div>
+        <div class="p-4 card shadow rounded text-center">
+          <h3 class="text-xl font-semibold mb-2 text-cyan-400">Design</h3>
+          <p>Figma, Canva</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Experience Section -->
+  <section id="experience" class="container mx-auto py-16 px-6">
+    <h2 class="text-3xl font-bold mb-4">Experience</h2>
+    <div class="space-y-6">
+      <div class="p-4 card shadow rounded">
+        <h3 class="text-xl font-semibold text-cyan-400">Software Developer - Tech Mahindra</h3>
+        <p class="text-gray-400">March 2024 - Present | Hyderabad, India</p>
+        <ul class="list-disc ml-5 mt-2 text-gray-300">
+          <li>Developed and maintained automated test scripts using Java and Selenium WebDriver.</li>
+          <li>Implemented TestNG for test management and reporting.</li>
+          <li>Tracked defects using JIRA while maintaining testing documentation.</li>
+        </ul>
+      </div>
+      <div class="p-4 card shadow rounded">
+        <h3 class="text-xl font-semibold text-cyan-400">Software Developer Intern - Autodesk</h3>
+        <p class="text-gray-400">January 2023 - June 2023 | Pune, India</p>
+        <ul class="list-disc ml-5 mt-2 text-gray-300">
+          <li>Resolved UI framework issues using WPF and C#.</li>
+          <li>Contributed to Agile ceremonies and sprint planning.</li>
+          <li>Collaborated with cross-functional teams to design effective test cases.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-gray-800 py-16 px-6">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-4 text-white">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-4 card shadow rounded">
+          <h3 class="text-xl font-semibold mb-2 text-cyan-400">Hospital Management System</h3>
+          <p class="text-gray-300">Django | February 2022 - April 2022</p>
+          <p>Streamlined hospital management by automating appointment handling and patient records.</p>
+        </div>
+        <div class="p-4 card shadow rounded">
+          <h3 class="text-xl font-semibold mb-2 text-cyan-400">Smart Home</h3>
+          <p class="text-gray-300">Arduino | June 2021 - July 2021</p>
+          <p>Integrated sensors for remote operation of home appliances and monitoring agricultural climate changes.</p>
+        </div>
+        <div class="p-4 card shadow rounded">
+          <h3 class="text-xl font-semibold mb-2 text-cyan-400">E-Commerce Application</h3>
+          <p class="text-gray-300">Django | April 2021 - May 2021</p>
+          <p>Created a responsive online shopping platform with a functional backend shopping cart.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container mx-auto py-16 px-6">
+    <h2 class="text-3xl font-bold mb-4 text-cyan-400">Contact</h2>
+    <p class="text-gray-400">Feel free to reach out to me through any of the following channels:</p>
+    <ul class="mt-4 space-y-2 text-gray-300">
+      <li>Email: <a href="mailto:nikhithachava@gmail.com" class="hover:underline">nikhithachava@gmail.com</a></li>
+      <li>Phone: <a href="tel:+917013883914" class="hover:underline">+91-7013883914</a></li>
+      <li>GitHub: <a href="https://github.com/Snowballpet" target="_blank" class="hover:underline">https://github.com/Snowballpet</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/nikhitha-chava/" target="_blank" class="hover:underline">https://www.linkedin.com/in/nikhitha-chava/</a></li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-6">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Nikhitha Chava. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Particles.js Configuration -->
+  <script>
+    particlesJS('particles-js', {
+      "particles": {
+        "number": { "value": 50, "density": { "enable": true, "value_area": 800 } },
+        "color": { "value": "#ffffff" },
+        "shape": {
+          "type": "circle",
+          "stroke": { "width": 0, "color": "#000000" }
+        },
+        "opacity": { "value": 0.5 },
+        "size": { "value": 5, "random": true },
+        "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 },
+        "move": { "enable": true, "speed": 6, "direction": "none", "out_mode": "out" }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": { "enable": true, "mode": "repulse" },
+          "onclick": { "enable": true, "mode": "push" },
+          "resize": true
+        },
+        "modes": {
+          "repulse": { "distance": 100, "duration": 0.4 },
+          "push": { "particles_nb": 4 }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+</body>
+
+</html>
